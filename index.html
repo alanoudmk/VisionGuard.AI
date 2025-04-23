@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VisionGuard.ai</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#visionguard">VisionGuard</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="about" class="hero">
+    <div class="hero-left">
+      <h1 class="typing">VisionGuard.ai</h1>
+      <p class="intro">
+        Dry Eye Disease (DED) is becoming increasingly common due to modern lifestyle habits such as
+        excessive screen time, poor sleep, and high stress levels. Many people experience symptoms
+        like eye strain and irritation without realizing these are early signs of DED — and often go undiagnosed.
+      </p>
+    </div>
+    <div class="hero-right">
+      <img src="images/logo.png" alt="VisionGuard Logo" class="logo-large"/>
+    </div>
+  </header>
+
+  <main id="visionguard">
+    <div id="progress-container"><div id="progress-bar"></div></div>
+    <div id="question-section" class="center-section">
+      <h2 id="question-text">Loading question...</h2>
+      <div id="options" class="options"></div>
+      <button id="next-btn" class="next-btn hidden" onclick="nextQuestion()">Next</button>
+    </div>
+
+    <div id="result-section" class="hidden">
+      <h2>Analyzing your responses...</h2>
+      <p>The result and recommendation will appear here once the AI model is integrated.</p>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="team">
+      <a href="https://www.linkedin.com/in/alanoud-almakadi-642401260" target="_blank">Alanoud Almakadi</a>
+      <a href="https://www.linkedin.com/in/salma-al-mutairi-96a259317" target="_blank">Salma Almutairi</a>
+      <a href="https://www.linkedin.com/in/nadine-alsahafi-7a61a02a8" target="_blank">Nadine Alsahafi</a>
+      <a href="https://www.linkedin.com/in/sarah-sadik-897190344/" target="_blank">Sarah Sadik</a>
+      <span>Dana Alnemari</span>
+    </div>
+    <p>© 2024 VisionGuard Team. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
